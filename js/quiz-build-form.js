@@ -1,5 +1,6 @@
 // FOR TESTING
-const fromYaml = {
+var fromYaml = {};
+/*
   "BASIC": [
     ["B1","Benutzt Ihre Website das https-Protokoll",null,["Ja","Nein, nur http","Beides, http und https","Ich weiss es nicht"]],
     ["B2","Meldet der Browser beim Aufruf Ihrer Domain ein fehlerhaftes oder abgelaufenes SSL-Zertifikat",null,["Nein, es gibt keine solche Meldung","Ja, es gibt eine solche Meldung","Ich weiss nicht, was das ist"]],
@@ -51,8 +52,8 @@ const fromYaml = {
     "Netzwerklast",
     null
   ]
-]};
-
+]}; */
+/*
 const questionSet = [...Object.values(fromYaml),
   ...[
   [
@@ -79,7 +80,7 @@ const formParams = {
     questions : questionSet.map(x => x.map(y => y[1])),
     answers   : questionSet.map(x => x.map(y => y[3]))
 }
-
+/*
 /* REMOVE
 const buildForm = (params) => {
   console.log(params);

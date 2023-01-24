@@ -23,11 +23,35 @@ fetch("webforms/fragebogen-1.yaml")
       $("#abschnitt").html(sampleSection);
       $("#L3").append(`<p><span class="sp-question">${yaml[sampleSection][q][0]}</span> - ${yaml[sampleSection][q][1]} -  ${anzahlFragen} Antworten</p>`)
     }
-    $('#L4').append('<h5 style="width:10em;font-weight:normal;padding-left:2px;border-left:1px solid blue;border-right:1px solid blue;border-top:1px solid blue;">Generierte &lt;form&gt;</h5><form id="myform"></form>');
+    $('#L4').append('<h5 style="width:10em;font-weight:normal;padding-left:2px;border-left:1px solid blue;border-right:1px solid blue;border-top:1px solid blue;">Generierte &lt;form&gt;</h5>');
+    fromYaml = yaml;
+    const questionSet = [...Object.values(fromYaml),
+      ...[
+      [
+        [null,"What is A?",null,null],
+        [null,"How does B look?",null,null],
+        [null,"When will C arrive?",null,null]
+      ],
+      [
+        [null,"Why did D fail?",null,null],
+        [null,"How many parts does E have?",null,null],
+        [null,"What is the weight of F?",null,null]
+      ],
+      [
+        [null,"Does G look new?",null,null],
+        [null,"What is the color of H?",null,null],
+        [null,"How many words are on I?",null,null]]
+    ]];
 
+    const formParams = {
+        sectionNames : [...Object.keys(fromYaml),...["General","Technical","Content"]],
+        questions : questionSet.map(x => x.map(y => y[1])),
+        answers   : questionSet.map(x => x.map(y => y[3]))
+    }
+    const myForm = buildFormV2(formParams);
+    $('#L4').append(myForm);
   })
   .then(() => {
-    const myForm = buildFormV1(formParams);
-    console.log(myForm);
-    $('#myform').append(myForm);
+
+
   });
