@@ -1,0 +1,86 @@
+Nr,Siglum,Area,Question,Subq
+1,B1,BASIC,Benutzt Ihre Website das https-Protokoll,
+2,B2,BASIC,Meldet der Browser beim Aufruf Ihrer Domain ein fehlerhaftes oder abgelaufenes SSL-Zertifikat,
+3,B3,BASIC,"Gibt es auf Ihrer Website Seiten, die beim Aufruf eine Fehlermelung des Typs 500 - Server Error auslöst",
+4,B4,BASIC,"Gibt es defekte Links oder Fehlerseiten auf der Website, wie z.B. 404 oder 500 Fehler",
+5,B5,BASIC,Ist das HTML aller Ihrer Seiten validiert,
+6,B6,BASIC,Haben Sie bei allen Ihren Seiten den Seitentitel kontrolliert,
+7,C7,CONT,Ist der Inhalt der Website aktuell und relevant,
+8,C8,CONT,Ist der Inhalt der Website auf der gesamten Website konsistent,
+9,C9,CONT,Wurde beim Erstellen der Inhalte auf die Anforderungen von Suchmaschinen geachtet,
+10,C10,CONT,Wurde beim Erstellen der Inhalte an die Bedürfnisse von Menschen mit Behinderung gedacht?,
+11,C11,CONT,Sind alle Texte für die Benutzer leicht verständlich,
+12,C12,CONT,Gibt es Probleme mit Inhalten ,
+13,C13,CONT,Ist der Inhalt der Website für verschiedene Betriebssysteme optimiert,Betriebssysteme
+14,C14,CONT,Ist der Inhalt der Website für verschiedene Bildschirmauflösungen optimiert,Bildschirmauflösungen
+15,C15,CONT,Ist der Inhalt der Website für verschiedene Bildschirmgrössen optimiert,Bildschirmgrössen
+16,C16,CONT,Ist der Inhalt der Website für verschiedene Browser optimiert,Browser
+17,C17,CONT,Ist der Inhalt der Website für verschiedene Geräte optimiert,Geräte
+18,C18,CONT,Ist der Inhalt der Website für verschiedene Sprachen optimiert,Sprachen
+19,C19,CONT,Ist der Inhalt der Website für verschiedene Zeitzonen optimiert,Zeitzonen
+20,S20,SEO,Wird die Website in Suchmaschinen gefunden,
+21,S21,SEO,Ist Ihre Website im Google-Index,
+22,S22,SEO,"Auf welchem Platz der Suchergebnisse erscheint Ihre wichtigste Seite, wenn man nach einem für Sie wichtigen Begriff sucht",
+23,S23,SEO,Wann wurde zum letzen Mal eine Ihrer Seiten aktualisiert,
+24,S24,SEO,"Wurden beim Design Ihrer Website mobile Geräte (Smartphone, Tablet) berücksichtigt",
+25,S25,SEO,Gibt es auf Ihrer Website eine robots.txt-Datei und eine Sitemap,
+26,S26,SEO,Gibt es irgendwo auf Ihrer Website tote Links oder Weiterleitungen ins Leere,
+27,S27,SEO,Haben Sie schon einmal die Ladezeit Ihrer Homepage gemessen,
+28,S28,SEO,"Gibt es Designelemente, die nicht für SEO optimiert sind",
+29,S29,SEO,Haben Sie bei allen Ihren Seiten die Beschreibung (META description) kontrolliert,
+30,S30,SEO,"Haben Sie bei allen Ihren Seiten die übrigen Metadaten (lang, encoding, viewport ...) kontrolliert",
+31,S31,SEO,Gibt es auf Ihrer Website Seiten mit sehr wenig Text,
+32,S32,SEO,Werden wichtige Teile der auf Ihrer Website angezeigten Inhalte erst nach dem Aufbau der Seite per Javascript eingefügt,
+33,S33,SEO,"Gibt es Bereiche auf der Website, die eine hohe Absprungrate oder eine niedrige Konversionsrate aufweisen",
+34,S34,SEO,Gibt es Probleme mit der Kompatibilität der Website auf verschiedenen Betriebssystemen,Betriebssysteme
+35,S35,SEO,Gibt es Probleme mit der Kompatibilität der Website auf verschiedenen Bildschirmauflösungen,Bildschirmauflösungen
+36,S36,SEO,Gibt es Probleme mit der Kompatibilität der Website auf verschiedenen Browsern,Browser
+37,S37,SEO,Gibt es Probleme mit der Kompatibilität der Website auf verschiedenen Geräten,Geräte
+38,U38,USAB,Sind das Layout und die Navigation der Website für den Benutzer intuitiv,
+39,U39,USAB,Gibt es Probleme mit der Lesbarkeit des Inhalts der Website,
+40,U40,USAB,"Gibt es Designelemente, die für Benutzer verwirrend oder schwer zu bedienen sind",
+41,U41,USAB,"Gibt es Designelemente, die nicht überall auf der gesamten Website einheitlich sind",
+42,U42,USAB,"Gibt es Designelemente, die veraltet oder nicht mehr relevant sind",
+43,U43,USAB,"Gibt es Designelemente, die nicht für A/B- oder multivariate Tests getestet wurden",
+44,U44,USAB,"Gibt es Designelemente, die nicht für Benutzer mit Behinderungen optimiert sind",
+45,U45,USAB,Gibt es Probleme mit der Formatierung oder Darstellung der Inhalte der Website auf verschiedenen Geräten oder Browsern,
+46,U46,USAB,"Gibt es Designelemente, die nicht für verschiedene Betriebssysteme optimiert sind",Betriebssysteme
+47,U47,USAB,"Gibt es Designelemente, die nicht für verschiedene Bildschirmauflösungen optimiert sind",Bildschirmauflösungen
+48,U48,USAB,"Gibt es Designelemente, die nicht für verschiedene Browser optimiert sind",Browser
+49,U49,USAB,"Gibt es Designelemente, die nicht für verschiedene Sprachen optimiert sind",Sprachen
+50,U50,USAB,"Gibt es Designelemente, die nicht richtig für verschiedene Bildschirmgrössen optimiert sind",Bildschirmgrössen
+51,U51,USAB,"Gibt es Designelemente, die nicht richtig für verschiedene Geräte optimiert sind",Geräte
+52,T52,TECH,"Gibt es aktuelle oder wiederkehrende technische Probleme, die Nutzer auf der Website gemeldet haben",
+53,T53,TECH,"Gibt es Inhalte, die die Ladezeit oder Leistung der Website beeinträchtigen",
+54,T54,TECH,Gibt es Probleme mit der Leistung der Website an verschiedenen geografischen Standorten,Geografie
+55,T55,TECH,Gibt es Probleme mit der Leistung der Website bei geringen Geräteressourcen,Geräteleistung
+56,T56,TECH,Gibt es Probleme mit der Leistung der Website bei hohem Traffic oder hoher Last,Serverlast
+57,T57,TECH,Gibt es Probleme mit der Leistung der Website bei schlechter Netzwerkkonnektivität,Netzwerklast
+58,M58,MGMT,Benutzen Sie ein Analytics-Tool,
+59,M59,MGMT,Benutzen Sie für Ihre Website ein Content-Management-System (CMS),
+60,M60,MGMT,"Gibt es bestimmte Ziele oder Messgrössen, die die Website derzeit zu erreichen versucht",
+61,M61,MGMT,Gibt es definierte Prozesse für die Pflege und Aktualisierung der Website,
+62,M62,MGMT,Gibt es eine aktuelle oder geplante Integration mit anderen Systemen oder Plattformen,
+63,M63,MGMT,Gibt es Pläne für A/B- oder multivariate Tests,
+64,M64,MGMT,Gibt es Pläne für zukünftige Aktualisierungen oder Umgestaltungen der Website,
+65,M65,MGMT,Gibt es Probleme mit dem Projektmanagement und der Planung der Website,
+66,M66,MGMT,Gibt es Probleme mit dem Risikomanagement und der Notfallplanung der Website,
+67,M67,MGMT,Gibt es Probleme mit dem Testen und der Qualitätssicherung der Website,
+68,M68,MGMT,Gibt es Probleme mit den Entscheidungsprozessen der Website,
+69,M69,MGMT,Gibt es Probleme mit der Datenverwaltung und dem Datenschutz auf der Website,
+70,M70,MGMT,Gibt es Probleme mit der Disaster Recovery- und Business Continuity-Planung der Website,
+71,M71,MGMT,Gibt es Probleme mit der Einhaltung von Vorschriften und gesetzlichen Bestimmungen auf der Website,
+72,M72,MGMT,Gibt es Probleme mit der Integration und Interoperabilität der Website mit anderen Systemen oder Plattformen,
+73,M73,MGMT,Gibt es Probleme mit der Kommunikation und Zusammenarbeit im Zusammenhang mit der Website,
+74,M74,MGMT,Gibt es Probleme mit der Lokalisierung oder Übersetzung des Inhalts der Website,
+75,M75,MGMT,Gibt es Probleme mit der Nutzerforschung und dem Feedback der Website,
+76,M76,MGMT,Gibt es Probleme mit der Personalausstattung der Website,
+77,M77,MGMT,Gibt es Probleme mit der Ressourcenzuweisung und Budgetierung der Website,
+78,M78,MGMT,Gibt es Probleme mit der Skalierbarkeit und Kapazitätsplanung der Website,
+79,M79,MGMT,Gibt es Probleme mit der strategischen Planung und der langfristigen Vision der Website,
+80,M80,MGMT,Gibt es Probleme mit der Verwaltung und Organisation der Website,
+81,M81,MGMT,Messen Sie die Leistung der Website und das Engagement der Nutzer,
+82,M82,MGMT,Wer kümmert sich um die Aktualisierung Ihrer Homepage oder schaltet neue Inhalte auf,
+83,M83,MGMT,"Werden Tools oder Analysen verwendet, um den Website-Traffic und das Nutzerverhalten zu verfolgen",
+84,M84,MGMT,"Werden Tools oder Analysen verwendet, um die technische Leistung der Website zu verfolgen",
+85,M85,MGMT,Wird die Leistung der Website und das Engagement der Nutzer verfolgt und analysiert,

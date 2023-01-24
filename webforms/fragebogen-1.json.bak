@@ -1,0 +1,215 @@
+{
+"BASIC":
+[
+["B1", "Benutzt Ihre Website das https-Protokoll", null, [
+"Ja",
+"Nein, nur http",
+"Beides, http und https",
+"Ich weiss es nicht"
+]],
+["B2", "Meldet der Browser beim Aufruf Ihrer Domain ein fehlerhaftes oder abgelaufenes SSL-Zertifikat", null, [
+"Nein, es gibt keine solche Meldung",
+"Ja, es gibt eine solche Meldung",
+"Ich weiss nicht, was das ist"
+]],
+["B3", "Gibt es auf Ihrer Website Seiten, die beim Aufruf eine Fehlermelung des Typs 500 - Server Error ausl\u00f6st", null, [
+"Ja, es gibt Seiten mit solch einer Fehlermeldung",
+"Nein, alle Seiten funktionieren"
+]],
+["B4", "Gibt es Seiten, die die Fehlermeldung '404 - nicht gefunden' auslösen", null, [
+"Nein, alle können aufgerufen werden",
+"Ja, einige werden nicht gefunden"
+]],
+["B5", "Ist das HTML aller Ihrer Seiten validiert", null, [
+"Ja, alles in Ordnung",
+"Ja, aber bei einigen gibt es Fehler",
+"Nein, ich habe das noch nie kontrolliert"
+]],
+["B6", "Haben Sie bei allen Ihren Seiten den Seitentitel kontrolliert", null, [
+"Ja, und jede Seite hat einen passenden, unverwechselbaren Titel",
+"Ja, aber einige Seiten haben identische Titel oder es fehlen Titel",
+"Nein, ich habe das noch nie kontrolliert"
+]]],
+"CONT":
+[
+["C7", "Ist der Inhalt der Website aktuell und relevant", null, [
+"Ja",
+"Mehrheitlich schon",
+"Nur ein paar wenige Seiten sind aktuell",
+"Es gibt Seiten, die eigentlich nicht passen",
+"Ich habe das noch nie überprüft"
+]],
+["C8", "Ist der Inhalt der Website auf der gesamten Website konsistent", null, [
+"Ja",
+"Mehrheitlich schon",
+"Es gibt einige Widersprüche",
+"Ich habe das noch nie überprüft"
+]],
+["C9", "Wurde beim Erstellen der Inhalte auf die Anforderungen von Suchmaschinen geachtet", null, [
+"Ja",
+"Mehrheitlich schon",
+"Nur in einzelnen Fällen",
+"Nein",
+"Ich habe das noch nie überprüft"
+]],
+["C10", "Wurde beim Erstellen der Inhalte an die Bed\u00fcrfnisse von Menschen mit Behinderung gedacht?", null, [
+"Ja",
+"Mehrheitlich schon",
+"Es gibt einige Seiten, die nicht f\u00fcr alle geeignet sind",
+"Mir ist diese Problematik fremd"
+]],
+["C11", "Sind alle Texte f\u00fcr die Benutzer leicht verst\u00e4ndlich", null, [
+"Ja",
+"Die meisten",
+"Nur einige",
+"Ich habe das noch nie überprüft"
+]],
+["C12", "Gibt es Probleme mit Inhalten ", null, [
+"Nein",
+"Ja (siehe nächste Fragen)"
+]],
+["C13", "Ist der Inhalt der Website f\u00fcr verschiedene Betriebssysteme optimiert", "Betriebssysteme", null],
+["C14", "Ist der Inhalt der Website f\u00fcr verschiedene Bildschirmaufl\u00f6sungen optimiert", "Bildschirmaufl\u00f6sungen", null],
+["C15", "Ist der Inhalt der Website f\u00fcr verschiedene Bildschirmgr\u00f6ssen optimiert", "Bildschirmgr\u00f6ssen", null],
+["C16", "Ist der Inhalt der Website f\u00fcr verschiedene Browser optimiert", "Browser", null],
+["C17", "Ist der Inhalt der Website f\u00fcr verschiedene Ger\u00e4te optimiert", "Ger\u00e4te", null],
+["C18", "Ist der Inhalt der Website f\u00fcr verschiedene Sprachen optimiert", "Sprachen", null],
+["C19", "Ist der Inhalt der Website f\u00fcr verschiedene Zeitzonen optimiert", "Zeitzonen", null]], "SEO":
+[
+["S20", "Wird die Website in Suchmaschinen gefunden", null, [
+"Ja",
+"Nein, möglicherweise nicht",
+"Ich weiss nicht, wie man das herausfinden kann"
+]],
+["S21", "Ist Ihre Website im Google-Index", null, [
+"Ja",
+"Nein, möglicherweise nicht",
+"Ich weiss nicht, wie man das herausfinden kann"
+]],
+["S22", "Auf welchem Platz der Suchergebnisse erscheint Ihre wichtigste Seite, wenn man nach einem f\u00fcr Sie wichtigen Begriff sucht", null, [
+"Platz 1-3",
+"Platz 4-10",
+"Platz 11-20",
+"Platz 11-20",
+"Platz 21-100",
+"nicht unter den ersten 100 Plätzen"
+]],
+["S23", "Wann wurde zum letzen Mal eine Ihrer Seiten aktualisiert", null, [
+"innerhalb der letzten 7 Tage",
+"vor 8 bis 31 Tagen",
+"vor 32 bis 90 Tagen",
+"vor 91 bis 180 Tagen",
+"vor 181 bis 365 Tagen",
+"vor länger als einem Jahr"
+]],
+["S24", "Wurden beim Design Ihrer Website mobile Ger\u00e4te (Smartphone, Tablet) ber\u00fccksichtigt", null, [
+"Ja",
+"Mehrheitlich schon",
+"Es gibt einige Seiten, die nicht f\u00fcr alle geeignet sind",
+"Mir ist diese Problematik fremd"
+]],
+["S25", "Gibt es auf Ihrer Website eine robots.txt-Datei und eine Sitemap", null, [
+"Ja, beides",
+"Nein, nur die robots.txt-Datei",
+"Nein, nur die Sitemap",
+"Nein, keine von beiden",
+"Ich weiss nicht, was das ist"
+]],
+["S26", "Gibt es irgendwo auf Ihrer Website tote Links oder Weiterleitungen ins Leere", null, [
+"Nein",
+"Ja, vereinzelt",
+"Ich weiss nicht, wie man das herausfinden kann"
+]],
+["S27", "Haben Sie schon einmal die Ladezeit Ihrer Homepage gemessen", null, [
+"Ja, und die Ladezeit war kurz",
+"Ja, und die Ladezeit war eher lang",
+"Nein",
+"Ich weiss nicht, wie man das macht"
+]],
+["S28", "Gibt es Designelemente, die nicht f\u00fcr SEO optimiert sind", null, [
+"Ja",
+"Die meisten",
+"Nur einige",
+"Ich habe das noch nie überprüft"
+]],
+["S29", "Haben Sie bei allen Ihren Seiten die Beschreibung (META description) kontrolliert", null, [
+"Ja, und jede Seite hat eine aussagekräftige, auf sie zutreffende Beschreibung",
+"Ja, aber einige Seiten haben identische oder fehlende Beschreibungen",
+"Nein, ich habe das noch nie kontrolliert"
+]],
+["S30", "Haben Sie bei allen Ihren Seiten die \u00fcbrigen Metadaten (lang, encoding, viewport ...) kontrolliert", null, [
+"Ja, alles in Ordnung",
+"Ja, aber bei einigen gibt es Fragen oder Probleme",
+"Nein, ich habe das noch nie kontrolliert"
+]],
+["S31", "Gibt es auf Ihrer Website Seiten mit sehr wenig Text", null, [
+"Ja, ich lasse gerne Bilder sprechen",
+"Einige, aber das ist die Ausnahme",
+"Nein, alle Seiten enthalten längere Textabschnitte"
+]],
+["S32", "Werden wichtige Teile der auf Ihrer Website angezeigten Inhalte erst nach dem Aufbau der Seite per Javascript eingef\u00fcgt", null, [
+"Ja, bis auf ein Skelett sind die Seiten dynamisch",
+"Nein, die Inhalte werden mit dem HTML-Quelltext geladen",
+"Ich weiss nicht, um was es hier geht"
+]],
+["S33", "Gibt es Bereiche auf der Website, die eine hohe Absprungrate oder eine niedrige Konversionsrate aufweisen", null, [
+"Ja",
+"Die meisten",
+"Nur einige",
+"Ich habe das noch nie überprüft"
+]],
+["S34", "Gibt es Probleme mit der Kompatibilit\u00e4t der Website auf verschiedenen Betriebssystemen", "Betriebssysteme", null],
+["S35", "Gibt es Probleme mit der Kompatibilit\u00e4t der Website auf verschiedenen Bildschirmaufl\u00f6sungen", "Bildschirmaufl\u00f6sungen", null],
+["S36", "Gibt es Probleme mit der Kompatibilit\u00e4t der Website auf verschiedenen Browsern", "Browser", null],
+["S37", "Gibt es Probleme mit der Kompatibilit\u00e4t der Website auf verschiedenen Ger\u00e4ten", "Ger\u00e4te", null]], "USAB":
+[
+["U38", "Sind das Layout und die Navigation der Website f\u00fcr den Benutzer intuitiv", null, null],
+["U39", "Gibt es Probleme mit der Lesbarkeit des Inhalts der Website", null, null],
+["U40", "Gibt es Designelemente, die f\u00fcr Benutzer verwirrend oder schwer zu bedienen sind", null, null],
+["U41", "Gibt es Designelemente, die nicht \u00fcberall auf der gesamten Website einheitlich sind", null, null],
+["U42", "Gibt es Designelemente, die veraltet oder nicht mehr relevant sind", null, null],
+["U43", "Gibt es Designelemente, die nicht f\u00fcr A/B- oder multivariate Tests getestet wurden", null, null],
+["U44", "Gibt es Designelemente, die nicht f\u00fcr Benutzer mit Behinderungen optimiert sind", null, null],
+["U45", "Gibt es Probleme mit der Formatierung oder Darstellung der Inhalte der Website auf verschiedenen Ger\u00e4ten oder Browsern", null, null],
+["U46", "Gibt es Designelemente, die nicht f\u00fcr verschiedene Betriebssysteme optimiert sind", "Betriebssysteme", null],
+["U47", "Gibt es Designelemente, die nicht f\u00fcr verschiedene Bildschirmaufl\u00f6sungen optimiert sind", "Bildschirmaufl\u00f6sungen", null],
+["U48", "Gibt es Designelemente, die nicht f\u00fcr verschiedene Browser optimiert sind", "Browser", null],
+["U49", "Gibt es Designelemente, die nicht f\u00fcr verschiedene Sprachen optimiert sind", "Sprachen", null],
+["U50", "Gibt es Designelemente, die nicht richtig f\u00fcr verschiedene Bildschirmgr\u00f6ssen optimiert sind", "Bildschirmgr\u00f6ssen", null],
+["U51", "Gibt es Designelemente, die nicht richtig f\u00fcr verschiedene Ger\u00e4te optimiert sind", "Ger\u00e4te", null]], "TECH":
+[
+["T52", "Gibt es aktuelle oder wiederkehrende technische Probleme, die Nutzer auf der Website gemeldet haben", null, null],
+["T53", "Gibt es Inhalte, die die Ladezeit oder Leistung der Website beeintr\u00e4chtigen", null, null],
+["T54", "Gibt es Probleme mit der Leistung der Website an verschiedenen geografischen Standorten", "Geografie", null],
+["T55", "Gibt es Probleme mit der Leistung der Website bei geringen Ger\u00e4teressourcen", "Ger\u00e4teleistung", null],
+["T56", "Gibt es Probleme mit der Leistung der Website bei hohem Traffic oder hoher Last", "Serverlast", null],
+["T57", "Gibt es Probleme mit der Leistung der Website bei schlechter Netzwerkkonnektivit\u00e4t", "Netzwerklast", null]], "MGMT":
+[
+["M58", "Benutzen Sie ein Analytics-Tool", null, null],
+["M59", "Benutzen Sie f\u00fcr Ihre Website ein Content-Management-System (CMS)", null, null],
+["M60", "Gibt es bestimmte Ziele oder Messgr\u00f6ssen, die die Website derzeit zu erreichen versucht", null, null],
+["M61", "Gibt es definierte Prozesse f\u00fcr die Pflege und Aktualisierung der Website", null, null],
+["M62", "Gibt es eine aktuelle oder geplante Integration mit anderen Systemen oder Plattformen", null, null],
+["M63", "Gibt es Pl\u00e4ne f\u00fcr A/B- oder multivariate Tests", null, null],
+["M64", "Gibt es Pl\u00e4ne f\u00fcr zuk\u00fcnftige Aktualisierungen oder Umgestaltungen der Website", null, null],
+["M65", "Gibt es Probleme mit dem Projektmanagement und der Planung der Website", null, null],
+["M66", "Gibt es Probleme mit dem Risikomanagement und der Notfallplanung der Website", null, null],
+["M67", "Gibt es Probleme mit dem Testen und der Qualit\u00e4tssicherung der Website", null, null],
+["M68", "Gibt es Probleme mit den Entscheidungsprozessen der Website", null, null],
+["M69", "Gibt es Probleme mit der Datenverwaltung und dem Datenschutz auf der Website", null, null],
+["M70", "Gibt es Probleme mit der Disaster Recovery- und Business Continuity-Planung der Website", null, null],
+["M71", "Gibt es Probleme mit der Einhaltung von Vorschriften und gesetzlichen Bestimmungen auf der Website", null, null],
+["M72", "Gibt es Probleme mit der Integration und Interoperabilit\u00e4t der Website mit anderen Systemen oder Plattformen", null, null],
+["M73", "Gibt es Probleme mit der Kommunikation und Zusammenarbeit im Zusammenhang mit der Website", null, null],
+["M74", "Gibt es Probleme mit der Lokalisierung oder \u00dcbersetzung des Inhalts der Website", null, null],
+["M75", "Gibt es Probleme mit der Nutzerforschung und dem Feedback der Website", null, null],
+["M76", "Gibt es Probleme mit der Personalausstattung der Website", null, null],
+["M77", "Gibt es Probleme mit der Ressourcenzuweisung und Budgetierung der Website", null, null],
+["M78", "Gibt es Probleme mit der Skalierbarkeit und Kapazit\u00e4tsplanung der Website", null, null],
+["M79", "Gibt es Probleme mit der strategischen Planung und der langfristigen Vision der Website", null, null],
+["M80", "Gibt es Probleme mit der Verwaltung und Organisation der Website", null, null],
+["M81", "Messen Sie die Leistung der Website und das Engagement der Nutzer", null, null],
+["M82", "Wer k\u00fcmmert sich um die Aktualisierung Ihrer Homepage oder schaltet neue Inhalte auf", null, null],
+["M83", "Werden Tools oder Analysen verwendet, um den Website-Traffic und das Nutzerverhalten zu verfolgen", null, null],
+["M84", "Werden Tools oder Analysen verwendet, um die technische Leistung der Website zu verfolgen", null, null],
+["M85", "Wird die Leistung der Website und das Engagement der Nutzer verfolgt und analysiert", null, null]]}

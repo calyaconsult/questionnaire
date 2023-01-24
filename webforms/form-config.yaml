@@ -1,0 +1,43 @@
+---
+sectionNames:
+- General
+- Technical
+- Content
+nrOfAnswers: 4
+questions:
+- - What is A?:
+    - A thing
+    - Another thing
+    - Nothing
+  - How does B look?:
+    - Big
+    - Medium
+    - Small
+  - When will C arrive?:
+    - Today
+    - Tomorrow
+    - Later
+- - Why did D fail?:
+    - Yes, but
+    - Reason 2
+    - Reason 3
+  - How many parts does E have?:
+    - 5
+    - 10
+    - 15
+  - What is the weight of F?:
+    - 100
+    - 200
+    - 300
+- - Does G look new?:
+    - 'Yes'
+    - 'No'
+    - Don't know
+  - What is the color of H?:
+    - Red
+    - Blue
+    - Green
+  - How many words are on I?:
+    - 10
+    - 100
+    - 1000

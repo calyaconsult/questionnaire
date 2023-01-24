@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="website-check-up-ultralight-form.xsl"?>
+<ul>
+  <li>Meldet der Browser beim Aufruf Ihrer Domain ein fehlerhaftes oder abgelaufenes  <strong>SSL-Zertifikat</strong>?
+  <ul>
+    <li><input type="checkbox"/> Nein, es gibt keine solche Meldung</li>
+    <li><input type="checkbox"/> Ja, es gibt eine solche Meldung</li>
+    <li><input type="checkbox"/> Ich weiss nicht, was das ist</li>
+  </ul>
+  </li>
+  <li>Können alle Ihre Seiten aufgerufen werden oder erscheint bei einer oder mehreren Seiten die Meldung <strong>404 - Nicht gefunden</strong>?
+  <ul>
+    <li><input type="checkbox"/> Ja, alle können aufgerufen werden</li>
+    <li><input type="checkbox"/> Nein, einige werden nicht gefunden</li>
+  </ul>
+  </li>
+  <li>Gibt es auf Ihrer Website Seiten, die beim Aufruf eine Fehlermelung des Typs <strong>500 - Server Error</strong> auslöst?
+  <ul>
+    <li><input type="checkbox"/> Ja, es gibt Seiten mit solch einer Fehlermeldung</li>
+    <li><input type="checkbox"/> Nein, alle Seiten funktionieren</li>
+  </ul>
+  </li>
+  <li>Benutzen Sie für Ihre Website ein Content-Management-System (CMS)?
+  <ul>
+    <li><input type="checkbox"/> Ja, ich benutze Wordpress, Wix oder Jimdo</li>
+    <li><input type="checkbox"/> Ja, ich benutze Typo3, Drupal oder Joomla</li>
+    <li><input type="checkbox"/> Ja, ich benutze einen Homepage-Creator oder Homepage-Baukasten</li>
+    <li><input type="checkbox"/> Ja, ich benutze ein CMS für statische Seiten (zum Beispiel Ghost)</li>
+    <li><input type="checkbox"/> Nein, ich benutze kein CMS</li>
+    <li><input type="checkbox"/> Ich weiss nicht, was das ist</li>
+  </ul>
+  </li>
+  <li>Haben Sie schon einmal die Ladezeit Ihrer Homepage gemessen?
+  <ul>
+    <li><input type="checkbox"/> Ja, und die Ladezeit war kurz</li>
+    <li><input type="checkbox"/> Ja, und die Ladezeit war eher lang</li>
+    <li><input type="checkbox"/> Nein</li>
+  </ul>
+  </li>
+  <li>Gibt es irgendwo auf Ihrer Website tote Links oder Weiterleitungen ins Leere?
+  <ul>
+    <li><input type="checkbox"/> Nein</li>
+    <li><input type="checkbox"/> Ja, vereinzelt</li>
+    <li><input type="checkbox"/> Ich weiss nicht, wie man das herausfinden kann</li>
+  </ul>
+  </li>
+  <li>Wann wurde zum letzen Mal eine Ihrer Seiten aktualisiert?
+  <ul>
+    <li><input type="checkbox"/> innerhalb der letzten 7 Tage</li>
+    <li><input type="checkbox"/> vor 8 bis 31 Tagen</li>
+    <li><input type="checkbox"/> vor 32 bis 90 Tagen</li>
+    <li><input type="checkbox"/> vor 91 bis 180 Tagen</li>
+    <li><input type="checkbox"/> vor 181 bis 365 Tagen</li>
+    <li><input type="checkbox"/> vor länger als einem Jahr</li>
+  </ul>
+  </li>
+  <li>Wer kümmert sich um die Aktualisierung Ihrer Homepage oder schaltet neue Inhalte auf?
+    <ul>
+      <li><input type="checkbox"/> Sie selbst</li>
+      <li><input type="checkbox"/> Ein Familienmitglied</li>
+      <li><input type="checkbox"/> Ein Mitarbeiter Ihres Unternehmens</li>
+      <li><input type="checkbox"/> Ein Freund oder Bekannter</li>
+      <li><input type="checkbox"/> Eine Agentur oder ein externer Dienstleister</li>
+    </ul>
+  </li>
+  <li>Wurden beim Design Ihrer Website mobile Geräte (Smartphone, Tablet) berücksichtigt?
+    <ul>
+      <li><input type="checkbox"/> Ja, das Design ist <strong>mobile first</strong></li>
+      <li><input type="checkbox"/> Ja, das Design ist <strong>responsive</strong></li>
+      <li><input type="checkbox"/> Ja, aber es ist nicht optimal für mobile Geräte</li>
+      <li><input type="checkbox"/> Nein, das Design wurde für grosse Bildschirme entworfen</li>
+      <li><input type="checkbox"/> Ich weiss es nicht</li>
+    </ul>
+  </li>
+  <li>Haben Sie bei allen Ihren Seiten den Seitentitel (&lt;TITLE&gt;) kontrolliert?
+    <ul>
+      <li><input type="checkbox"/> Ja, und jede Seite hat einen passenden, unverwechselbaren Titel</li>
+      <li><input type="checkbox"/> Ja, aber einige Seiten haben identische Titel oder es fehlen Titel</li>
+      <li><input type="checkbox"/> Nein, ich habe das noch nie kontrolliert</li>
+    </ul>
+  </li>
+  <li>Haben Sie bei allen Ihren Seiten die Beschreibung (&lt;META name="description"&gt;) kontrolliert?
+    <ul>
+      <li><input type="checkbox"/> Ja, und jede Seite hat eine aussagekräftige, auf sie zutreffende Beschreibung</li>
+      <li><input type="checkbox"/> Ja, aber einige Seiten haben identische oder fehlende Beschreibungen</li>
+      <li><input type="checkbox"/> Nein, ich habe das noch nie kontrolliert</li>
+    </ul>
+  </li>
+  <li>Haben Sie bei allen Ihren Seiten die übrigen Metadaten (lang, encoding, viewport ...) kontrolliert?
+    <ul>
+      <li><input type="checkbox"/> Ja, alles in Ordnung</li>
+      <li><input type="checkbox"/> Ja, aber bei einigen gibt es Fragen oder Probleme</li>
+      <li><input type="checkbox"/> Nein, ich habe das noch nie kontrolliert</li>
+    </ul>
+  </li>
+  <li>Ist das HTML aller Ihrer Seiten validiert?
+    <ul>
+      <li><input type="checkbox"/> Ja, alles in Ordnung</li>
+      <li><input type="checkbox"/> Ja, aber bei einigen gibt es Fehler</li>
+      <li><input type="checkbox"/> Nein, ich habe das noch nie kontrolliert</li>
+    </ul>
+  </li>
+  <li>Werden wichtige Teile der auf Ihrer Website angezeigten Inhalte erst nach dem Aufbau der Seite per Javascript eingefügt?
+    <ul>
+      <li><input type="checkbox"/> Ja, bis auf ein Skelett sind die Seiten dynamisch</li>
+      <li><input type="checkbox"/> Nein, die Inhalte werden mit dem HTML-Quelltext geladen</li>
+      <li><input type="checkbox"/> Ich weiss nicht, um was es hier geht</li>
+    </ul>
+  </li>
+  <li>Gibt es auf Ihrer Website Seiten mit sehr wenig Text?
+    <ul>
+      <li><input type="checkbox"/> Ja, ich lasse gerne Bilder sprechen</li>
+      <li><input type="checkbox"/> Einige, aber das ist die Ausnahme</li>
+      <li><input type="checkbox"/> Nein, alle Seiten enthalten längere Textabschnitte</li>
+    </ul>
+  </li>
+  <li>Ist Ihre Website im Google-Index?
+  <ul>
+    <li><input type="checkbox"/> Ja</li>
+    <li><input type="checkbox"/> Nein, möglicherweise nicht</li>
+    <li><input type="checkbox"/> Ich weiss nicht, wie man das herausfinden kann</li>
+  </ul>
+  </li>
+  <li>Auf welchem Platz der Suchergebnisse erscheint Ihre wichtigste Seite, wenn man nach einem für Sie wichtigen Begriff sucht?
+  <ul>
+    <li><input type="checkbox"/> Platz 1-3</li>
+    <li><input type="checkbox"/> Platz 4-10</li>
+    <li><input type="checkbox"/> Platz 11-20</li>
+    <li><input type="checkbox"/> Platz 11-20</li>
+    <li><input type="checkbox"/> Platz 21-100</li>
+    <li><input type="checkbox"/> nicht unter den ersten 100 Plätzen</li>
+  </ul>
+  </li>
+  <li>Benutzen Sie ein Analytics-Tool?
+  <ul>
+    <li><input type="checkbox"/> Ja, und ich werte die Zahlen regelmässig aus</li>
+    <li><input type="checkbox"/> Ja, aber ich werte die Zahlen nicht oder nur selten aus</li>
+    <li><input type="checkbox"/> Nein</li>
+    <li><input type="checkbox"/> Ich weiss nicht, was das ist</li>
+  </ul>
+  </li>
+  <li>Gibt es auf Ihrer Website eine robots.txt-Datei und eine Sitemap?
+  <ul>
+    <li><input type="checkbox"/> Ja, beides</li>
+    <li><input type="checkbox"/> Nein, nur die robots.txt-Datei</li>
+    <li><input type="checkbox"/> Nein, nur die Sitemap</li>
+    <li><input type="checkbox"/> Nein, keine von beiden</li>
+    <li><input type="checkbox"/> Ich weiss nicht, was das ist</li>
+  </ul>
+  </li>
+</ul>

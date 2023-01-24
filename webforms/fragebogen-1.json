@@ -1,0 +1,520 @@
+{
+  "BASIC": [
+    [
+      "B1",
+      "Benutzt Ihre Website das https-Protokoll",
+      null,
+      [
+        "Ja",
+        "Nein, nur http",
+        "Beides, http und https",
+        "Ich weiss es nicht"
+      ]
+    ],
+    [
+      "B2",
+      "Meldet der Browser beim Aufruf Ihrer Domain ein fehlerhaftes oder abgelaufenes SSL-Zertifikat",
+      null,
+      [
+        "Nein, es gibt keine solche Meldung",
+        "Ja, es gibt eine solche Meldung",
+        "Ich weiss nicht, was das ist"
+      ]
+    ],
+    [
+      "B3",
+      "Gibt es auf Ihrer Website Seiten, die beim Aufruf eine Fehlermelung des Typs '500 - Server' Error auslösen",
+      null,
+      [
+        "Ja, es gibt Seiten mit solch einer Fehlermeldung",
+        "Nein, alle Seiten funktionieren"
+      ]
+    ],
+    [
+      "B4",
+      "Gibt es Seiten, die die Fehlermeldung '404 - nicht gefunden' auslösen",
+      null,
+      [
+        "Nein, alle können aufgerufen werden",
+        "Ja, einige werden nicht gefunden"
+      ]
+    ],
+    [
+      "B5",
+      "Ist das HTML aller Ihrer Seiten validiert",
+      null,
+      [
+        "Ja, alles in Ordnung",
+        "Ja, aber bei einigen gibt es Fehler",
+        "Nein, ich habe das noch nie kontrolliert"
+      ]
+    ],
+    [
+      "B6",
+      "Haben Sie bei allen Ihren Seiten den Seitentitel kontrolliert",
+      null,
+      [
+        "Ja, und jede Seite hat einen passenden, unverwechselbaren Titel",
+        "Ja, aber einige Seiten haben identische Titel oder es fehlen Titel",
+        "Nein, ich habe das noch nie kontrolliert"
+      ]
+    ]
+  ],
+  "CONT": [
+    [
+      "C7",
+      "Ist der Inhalt der Website aktuell und relevant",
+      null,
+      [
+        "Ja",
+        "Mehrheitlich schon",
+        "Nur ein paar wenige Seiten sind aktuell",
+        "Es gibt Seiten, die eigentlich nicht passen",
+        "Ich habe das noch nie überprüft"
+      ]
+    ],
+    [
+      "C8",
+      "Ist der Inhalt der Website auf der gesamten Website konsistent",
+      null,
+      [
+        "Ja",
+        "Mehrheitlich schon",
+        "Es gibt einige Widersprüche",
+        "Ich habe das noch nie überprüft"
+      ]
+    ],
+    [
+      "C9",
+      "Wurde beim Erstellen der Inhalte auf die Anforderungen von Suchmaschinen geachtet",
+      null,
+      [
+        "Ja",
+        "Mehrheitlich schon",
+        "Nur in einzelnen Fällen",
+        "Nein",
+        "Ich habe das noch nie überprüft"
+      ]
+    ],
+    [
+      "C10",
+      "Wurde beim Erstellen der Inhalte an die Bedürfnisse von Menschen mit Behinderung gedacht?",
+      null,
+      [
+        "Ja",
+        "Mehrheitlich schon",
+        "Es gibt einige Seiten, die nicht für alle geeignet sind",
+        "Mir ist diese Problematik fremd"
+      ]
+    ],
+    [
+      "C11",
+      "Sind alle Texte für die Benutzer leicht verständlich",
+      null,
+      [
+        "Ja",
+        "Die meisten",
+        "Nur einige",
+        "Ich habe das noch nie überprüft"
+      ]
+    ],
+    [
+      "C12",
+      "Gibt es Probleme mit Inhalten ",
+      null,
+      [
+        "Nein",
+        "Ja (siehe nächste Fragen)"
+      ]
+    ],
+    [
+      "C13",
+      "Ist der Inhalt der Website für verschiedene Betriebssysteme optimiert",
+      "Betriebssysteme",
+      null
+    ],
+    [
+      "C14",
+      "Ist der Inhalt der Website für verschiedene Bildschirmauflösungen optimiert",
+      "Bildschirmauflösungen",
+      null
+    ],
+    [
+      "C15",
+      "Ist der Inhalt der Website für verschiedene Bildschirmgrössen optimiert",
+      "Bildschirmgrössen",
+      null
+    ],
+    [
+      "C16",
+      "Ist der Inhalt der Website für verschiedene Browser optimiert",
+      "Browser",
+      null
+    ],
+    [
+      "C17",
+      "Ist der Inhalt der Website für verschiedene Geräte optimiert",
+      "Geräte",
+      null
+    ],
+    [
+      "C18",
+      "Ist der Inhalt der Website für verschiedene Sprachen optimiert",
+      "Sprachen",
+      null
+    ],
+    [
+      "C19",
+      "Ist der Inhalt der Website für verschiedene Zeitzonen optimiert",
+      "Zeitzonen",
+      null
+    ]
+  ],
+  "SEO": [
+    [
+      "S20",
+      "Wird die Website in Suchmaschinen gefunden",
+      null,
+      [
+        "Ja",
+        "Nein, möglicherweise nicht",
+        "Ich weiss nicht, wie man das herausfinden kann"
+      ]
+    ],
+    [
+      "S21",
+      "Ist Ihre Website im Google-Index",
+      null,
+      [
+        "Ja",
+        "Nein, möglicherweise nicht",
+        "Ich weiss nicht, wie man das herausfinden kann"
+      ]
+    ],
+    [
+      "S22",
+      "Auf welchem Platz der Suchergebnisse erscheint Ihre wichtigste Seite, wenn man nach einem für Sie wichtigen Begriff sucht",
+      null,
+      [
+        "Platz 1-3",
+        "Platz 4-10",
+        "Platz 11-20",
+        "Platz 11-20",
+        "Platz 21-100",
+        "nicht unter den ersten 100 Plätzen"
+      ]
+    ],
+    [
+      "S23",
+      "Wann wurde zum letzen Mal eine Ihrer Seiten aktualisiert",
+      null,
+      [
+        "innerhalb der letzten 7 Tage",
+        "vor 8 bis 31 Tagen",
+        "vor 32 bis 90 Tagen",
+        "vor 91 bis 180 Tagen",
+        "vor 181 bis 365 Tagen",
+        "vor länger als einem Jahr"
+      ]
+    ],
+    [
+      "S24",
+      "Wurden beim Design Ihrer Website mobile Geräte (Smartphone, Tablet) berücksichtigt",
+      null,
+      [
+        "Ja",
+        "Mehrheitlich schon",
+        "Es gibt einige Seiten, die nicht für alle geeignet sind",
+        "Mir ist diese Problematik fremd"
+      ]
+    ],
+    [
+      "S25",
+      "Gibt es auf Ihrer Website eine robots.txt-Datei und eine Sitemap",
+      null,
+      [
+        "Ja, beides",
+        "Nein, nur die robots.txt-Datei",
+        "Nein, nur die Sitemap",
+        "Nein, keine von beiden",
+        "Ich weiss nicht, was das ist"
+      ]
+    ],
+    [
+      "S26",
+      "Gibt es irgendwo auf Ihrer Website tote Links oder Weiterleitungen ins Leere",
+      null,
+      [
+        "Nein",
+        "Ja, vereinzelt",
+        "Ich weiss nicht, wie man das herausfinden kann"
+      ]
+    ],
+    [
+      "S27",
+      "Haben Sie schon einmal die Ladezeit Ihrer Homepage gemessen",
+      null,
+      [
+        "Ja, und die Ladezeit war kurz",
+        "Ja, und die Ladezeit war eher lang",
+        "Nein",
+        "Ich weiss nicht, wie man das macht"
+      ]
+    ],
+    [
+      "S28",
+      "Gibt es Designelemente, die nicht für SEO optimiert sind",
+      null,
+      [
+        "Ja",
+        "Die meisten",
+        "Nur einige",
+        "Ich habe das noch nie überprüft"
+      ]
+    ],
+    [
+      "S29",
+      "Haben Sie bei allen Ihren Seiten die Beschreibung (META description) kontrolliert",
+      null,
+      [
+        "Ja, und jede Seite hat eine aussagekräftige, auf sie zutreffende Beschreibung",
+        "Ja, aber einige Seiten haben identische oder fehlende Beschreibungen",
+        "Nein, ich habe das noch nie kontrolliert"
+      ]
+    ],
+    [
+      "S30",
+      "Haben Sie bei allen Ihren Seiten die übrigen Metadaten (lang, encoding, viewport ...) kontrolliert",
+      null,
+      [
+        "Ja, alles in Ordnung",
+        "Ja, aber bei einigen gibt es Fragen oder Probleme",
+        "Nein, ich habe das noch nie kontrolliert"
+      ]
+    ],
+    [
+      "S31",
+      "Gibt es auf Ihrer Website Seiten mit sehr wenig Text",
+      null,
+      [
+        "Ja, ich lasse gerne Bilder sprechen",
+        "Einige, aber das ist die Ausnahme",
+        "Nein, alle Seiten enthalten längere Textabschnitte"
+      ]
+    ],
+    [
+      "S32",
+      "Werden wichtige Teile der auf Ihrer Website angezeigten Inhalte erst nach dem Aufbau der Seite per Javascript eingefügt",
+      null,
+      [
+        "Ja, bis auf ein Skelett sind die Seiten dynamisch",
+        "Nein, die Inhalte werden mit dem HTML-Quelltext geladen",
+        "Ich weiss nicht, um was es hier geht"
+      ]
+    ],
+    [
+      "S33",
+      "Gibt es Bereiche auf der Website, die eine hohe Absprungrate oder eine niedrige Konversionsrate aufweisen",
+      null,
+      [
+        "Ja",
+        "Die meisten",
+        "Nur einige",
+        "Ich habe das noch nie überprüft"
+      ]
+    ],
+    [
+      "S34",
+      "Gibt es Probleme mit der Kompatibilität der Website auf verschiedenen Betriebssystemen",
+      "Betriebssysteme",
+      null
+    ],
+    [
+      "S35",
+      "Gibt es Probleme mit der Kompatibilität der Website auf verschiedenen Bildschirmauflösungen",
+      "Bildschirmauflösungen",
+      null
+    ],
+    [
+      "S36",
+      "Gibt es Probleme mit der Kompatibilität der Website auf verschiedenen Browsern",
+      "Browser",
+      null
+    ],
+    [
+      "S37",
+      "Gibt es Probleme mit der Kompatibilität der Website auf verschiedenen Geräten",
+      "Geräte",
+      null
+    ]
+  ],
+  "USAB": [
+    [
+      "U38",
+      "Sind das Layout und die Navigation der Website für den Benutzer intuitiv",
+      null,
+      [
+        "Ja",
+        "Die meisten",
+        "Nur einige",
+        "Ich habe das noch nie überprüft"
+      ]
+    ],
+    [
+      "U39",
+      "Gibt es Probleme mit der Lesbarkeit des Inhalts der Website",
+      null,
+      [
+        "Nein",
+        "Möglicherweise",
+        "Ich habe das noch nie überprüft"
+      ]
+    ],
+    [
+      "U40",
+      "Gibt es Designelemente, die für Benutzer verwirrend oder schwer zu bedienen sind",
+      null,
+      [
+        "Ja, die meisten",
+        "Nur einige",
+        "Nein",
+        "Ich habe das noch nie überprüft"
+      ]
+    ],
+    [
+      "U41",
+      "Gibt es Designelemente, die nicht überall auf der gesamten Website einheitlich sind",
+      null,
+      [
+        "Ja, die meisten",
+        "Nur einige",
+        "Nein",
+        "Ich habe das noch nie überprüft"
+      ]
+    ],
+    [
+      "U42",
+      "Gibt es Designelemente, die veraltet oder nicht mehr relevant sind",
+      null,
+      [
+        "Ja, die meisten",
+        "Nur einige",
+        "Nein",
+        "Ich habe das noch nie überprüft"
+      ]
+    ],
+    [
+      "U43",
+      "Gibt es Designelemente, die nicht für A/B- oder multivariate Tests getestet wurden",
+      null,
+      [
+        "Ja, die meisten",
+        "Nur einige",
+        "Nein",
+        "Ich habe das noch nie überprüft"
+      ]
+    ],
+    [
+      "U44",
+      "Gibt es Designelemente, die nicht für Benutzer mit Behinderungen optimiert sind",
+      null,
+      [
+        "Ja, die meisten",
+        "Nur einige",
+        "Nein",
+        "Ich habe das noch nie überprüft"
+      ]
+    ],
+    [
+      "U45",
+      "Gibt es Probleme mit der Formatierung oder Darstellung der Inhalte der Website auf verschiedenen Geräten oder Browsern",
+      null,
+      [
+        "Ja, bei den meisten",
+        "Nur bei einigen",
+        "Nein",
+        "Ich habe das noch nie überprüft"
+      ]
+    ],
+    [
+      "U46",
+      "Gibt es Designelemente, die nicht für verschiedene Betriebssysteme optimiert sind",
+      "Betriebssysteme",
+      null
+    ],
+    [
+      "U47",
+      "Gibt es Designelemente, die nicht für verschiedene Bildschirmauflösungen optimiert sind",
+      "Bildschirmauflösungen",
+      null
+    ],
+    [
+      "U48",
+      "Gibt es Designelemente, die nicht für verschiedene Browser optimiert sind",
+      "Browser",
+      null
+    ],
+    [
+      "U49",
+      "Gibt es Designelemente, die nicht für verschiedene Sprachen optimiert sind",
+      "Sprachen",
+      null
+    ],
+    [
+      "U50",
+      "Gibt es Designelemente, die nicht richtig für verschiedene Bildschirmgrössen optimiert sind",
+      "Bildschirmgrössen",
+      null
+    ],
+    [
+      "U51",
+      "Gibt es Designelemente, die nicht richtig für verschiedene Geräte optimiert sind",
+      "Geräte",
+      null
+    ]
+  ],
+  "TECH": [
+    [
+      "T52",
+      "Gibt es aktuelle oder wiederkehrende technische Probleme, die Nutzer auf der Website gemeldet haben",
+      null,
+      [
+        "Ja, es gibt Seiten mit technischen Problemen",
+        "Nein, alle Seiten funktionieren"
+      ]
+    ],
+    [
+      "T53",
+      "Gibt es Inhalte, die die Ladezeit oder Leistung der Website beeinträchtigen",
+      null,
+      [
+        "Ja, es gibt solche Inhalte",
+        "Nein"
+      ]
+    ],
+    [
+      "T54",
+      "Gibt es Probleme mit der Leistung der Website an verschiedenen geografischen Standorten",
+      "Geografie",
+      null
+    ],
+    [
+      "T55",
+      "Gibt es Probleme mit der Leistung der Website bei geringen Geräteressourcen",
+      "Geräteleistung",
+      null
+    ],
+    [
+      "T56",
+      "Gibt es Probleme mit der Leistung der Website bei hohem Traffic oder hoher Last",
+      "Serverlast",
+      null
+    ],
+    [
+      "T57",
+      "Gibt es Probleme mit der Leistung der Website bei schlechter Netzwerkkonnektivität",
+      "Netzwerklast",
+      null
+    ]
+  ]
+}

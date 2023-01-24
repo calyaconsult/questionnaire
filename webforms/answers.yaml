@@ -1,0 +1,76 @@
+---
+- - Ja
+  - Nein, nur http
+  - Beides, http und https
+  - Ich weiss es nicht
+- - Nein, es gibt keine solche Meldung
+  - Ja, es gibt eine solche Meldung
+  - Ich weiss nicht, was das ist
+- - Ja, alle können aufgerufen werden
+  - Nein, einige werden nicht gefunden
+- - Ja, es gibt Seiten mit solch einer Fehlermeldung
+  - Nein, alle Seiten funktionieren
+- - Ja, ich benutze Wordpress, Wix oder Jimdo
+  - Ja, ich benutze Typo3, Drupal oder Joomla
+  - Ja, ich benutze einen Homepage-Creator oder Homepage-Baukasten
+  - Ja, ich benutze ein CMS für statische Seiten (zum Beispiel Ghost)
+  - Nein, ich benutze kein CMS
+  - Ich weiss nicht, was das ist
+- - Ja, und die Ladezeit war kurz
+  - Ja, und die Ladezeit war eher lang
+  - Nein
+- - Nein
+  - Ja, vereinzelt
+  - Ich weiss nicht, wie man das herausfinden kann
+- - innerhalb der letzten 7 Tage
+  - vor 8 bis 31 Tagen
+  - vor 32 bis 90 Tagen
+  - vor 91 bis 180 Tagen
+  - vor 181 bis 365 Tagen
+  - vor länger als einem Jahr
+- - Sie selbst
+  - Ein Familienmitglied
+  - Ein Mitarbeiter Ihres Unternehmens
+  - Ein Freund oder Bekannter
+  - Eine Agentur oder ein externer Dienstleister
+- - Ja, das Design ist mobile first
+  - Ja, das Design ist responsive
+  - Ja, aber es ist nicht optimal für mobile Geräte
+  - Nein, das Design wurde für grosse Bildschirme entworfen
+  - Ich weiss es nicht
+- - Ja, und jede Seite hat einen passenden, unverwechselbaren Titel
+  - Ja, aber einige Seiten haben identische Titel oder es fehlen Titel
+  - Nein, ich habe das noch nie kontrolliert
+- - Ja, und jede Seite hat eine aussagekräftige, auf sie zutreffende Beschreibung
+  - Ja, aber einige Seiten haben identische oder fehlende Beschreibungen
+  - Nein, ich habe das noch nie kontrolliert
+- - Ja, alles in Ordnung
+  - Ja, aber bei einigen gibt es Fragen oder Probleme
+  - Nein, ich habe das noch nie kontrolliert
+- - Ja, alles in Ordnung
+  - Ja, aber bei einigen gibt es Fehler
+  - Nein, ich habe das noch nie kontrolliert
+- - Ja, bis auf ein Skelett sind die Seiten dynamisch
+  - Nein, die Inhalte werden mit dem HTML-Quelltext geladen
+  - Ich weiss nicht, um was es hier geht
+- - Ja, ich lasse gerne Bilder sprechen
+  - Einige, aber das ist die Ausnahme
+  - Nein, alle Seiten enthalten längere Textabschnitte
+- - Ja
+  - Nein, möglicherweise nicht
+  - Ich weiss nicht, wie man das herausfinden kann
+- - Platz 1-3
+  - Platz 4-10
+  - Platz 11-20
+  - Platz 11-20
+  - Platz 21-100
+  - nicht unter den ersten 100 Plätzen
+- - Ja, und ich werte die Zahlen regelmässig aus
+  - Ja, aber ich werte die Zahlen nicht oder nur selten aus
+  - Nein
+  - Ich weiss nicht, was das ist
+- - Ja, beides
+  - Nein, nur die robots.txt-Datei
+  - Nein, nur die Sitemap
+  - Nein, keine von beiden
+  - Ich weiss nicht, was das ist
