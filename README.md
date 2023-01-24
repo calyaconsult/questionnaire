@@ -1,2 +1,2 @@
 # questionnaire
-Javascript-based dynamic form for quizzes, opinion polls, and other uses
+Development of a javascript-based dynamic form for quizzes, opinion polls, and other uses
