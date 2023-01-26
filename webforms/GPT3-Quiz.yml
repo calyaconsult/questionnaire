@@ -1,0 +1,129 @@
+---
+Questions:
+  General knowledge:
+  - What is the capital of France?
+  - Who invented the telephone?
+  - What is the most populous country in the world?
+  - What is the largest planet in our solar system?
+  - What is the name of the currency used in Japan?
+  - Who is the current president of the United States?
+  - What is the name of the world's largest desert?
+  - How many colors are there in a rainbow?
+  World history:
+  - Who is the first president of the United States?
+  - Which country started World War II?
+  - Which ancient civilization was governed by pharaohs?
+  - Who wrote the famous novel "War and Peace"?
+  - What was the name of the famous ship that sank in 1912?
+  - Which country was the first to industrialize?
+  - Who was the leader of the Soviet Union during World War II?
+  - What was the Black Death?
+  Nature:
+  - What is the largest mammal in the world?
+  - What is the name of the highest mountain peak in the world?
+  - What is the name of the biggest ocean on Earth?
+  - Which mammal lays eggs?
+  - Which bird does not fly?
+  - What is the name of the river that is home to the Giant Otter?
+  - How many states of matter are there?
+  - Which gas is used by green plants?
+Answers:
+  General knowledge:
+  - - Paris: true
+    - Rouen: false
+    - Bordeaux: false
+    - Marseille: false
+  - - Alexander Graham Bell: true
+    - Nikola Tesla: false
+    - Charles Babbage: false
+    - Guglielmo Marconi: false
+  - - China: true
+    - India: false
+    - Russia: false
+    - Brazil: false
+  - - Jupiter: true
+    - Saturn: false
+    - Uranus: false
+    - Neptune: false
+  - - Den: true
+    - Ren: false
+    - Yen: false
+    - Zen: false
+  - - Joe Biden: true
+    - Donald Trump: false
+    - Barack Obama: false
+    - George Bush: false
+  - - Sahara Desert: true
+    - Gobi: false
+    - Atacama: false
+    - Nefud: false
+  - - '7': true
+    - '5': false
+    - '6': false
+    - '8': false
+  World history:
+  - - George Washington: true
+    - Abraham Lincoln: false
+    - Thomas Jefferson: false
+    - Andrew Jackson: false
+  - - Nazi Germany: true
+    - The Soviet Union: false
+    - Japan: false
+    - Great Britain: false
+  - - The Egyptians: true
+    - The Accadians: false
+    - The Chinese: false
+    - The Aztecs: false
+  - - Leo Tolstoy: true
+    - Fyodor Dostoevsky: false
+    - Pyotr Tchaikovsky: false
+    - Mikhail Bulgakov: false
+  - - RMS Titanic: true
+    - The Mayflower: false
+    - HMS Queen Elizabeth: false
+    - RMS Lusitania: false
+  - - Great Britain: true
+    - France: false
+    - Germany: false
+    - The United States of America: false
+  - - Joseph Stalin: true
+    - Vladimir Lenin: false
+    - Leon Trotsky: false
+    - Nikita Khrushchev: false
+  - - The bubonic plague that affected Europe in the 14th century: true
+    - A mythical monster that appears in the Nordic Saga: false
+    - Boiling pitch or tar poured down from a castle: false
+    - A cloud of ashes from the eruption of Mount Vesuvius: false
+  Nature:
+  - - Blue Whale: true
+    - Elephant: false
+    - Brontosaurus: false
+    - Giraffe: false
+  - - Mount Everest: true
+    - Dhaulagiri: false
+    - Aconcagua: false
+    - Mount Kilimanjaro: false
+  - - Pacific Ocean: true
+    - Atlantic Ocean: false
+    - Indian Ocean: false
+    - Artic Ocean: false
+  - - Etruscan Shrew: false
+    - Duck-Billed Platypus: true
+    - Wombat: false
+    - Komodo Dragon: false
+  - - Ostrich: true
+    - Swan: false
+    - Turkey Vulture: false
+    - Sandgrouse: false
+  - - Nile: false
+    - Amazon: true
+    - Yangtze: false
+    - Volga: false
+  - - Three (solid, liquid, gas): false
+    - Four (solid, liquid, gas, plasma): true
+    - Two (compact, diluted): false
+    - Five (Earth, Fire, Wind, Water, Light): false
+  - - Carbon Dioxide: true
+    - Carbon Monoxide: false
+    - Methane: false
+    - Oxygen: false

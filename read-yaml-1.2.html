@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="de">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="DESCRIPTION">
+      <meta name="robots" content="index,follow">
+      <meta property="og:locale" content="de_DE">
+      <meta property="og:site_name" content="Calya Consult">
+      <meta property="og:type" content="website">
+      <meta property="og:title" content="Website Check-Up">
+      <meta property="og:description" content="Ein Check-Up für Ihre Website - Light-Version">
+      <meta property="og:image" content="https://calyaconsult.ch/ccch/images/repair-tools.png">
+      <title>YAML nach JSON</title>
+      <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet" class="stshl">
+      <link rel="icon" type="image/png" href="images/favicon_io/favicon.ico">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" class="stshl">
+      <link rel="stylesheet" href="css/style02.css" class="stshl">
+			<link rel="stylesheet" href="css/questionnaire.css" class="stshl">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.js"></script>
+      <script src="js/form230125.js"></script>
+      <script src="js/quiz-build-form-1.2.js"></script>
+      <style>
+      body {
+        counter-reset: question-counter;
+      }
+      form {border:1px solid blue;}
+      legend {
+        counter-increment: question-counter;
+      }
+      legend:before {
+        content: counter(question-counter) ") ";
+      }
+      .sp-section {font-weight: bold;}
+      .sp-question {font-style: italic;}
+      #qnumber {color: blue;}
+      </style>
+   </head>
+<body>
+  <main class="container">
+    <section>
+      <h1>YAML nach JSON</h1>
+      <p>Das Script liest den Fragenkatalog aus der Datei <code>webforms/fragebogen-1.yaml</code> ein und konvertiert ihn in ein JSON-Objekt.</p>
+    </section>
+    <div id="generated-html">
+      <h2>Sample Output zur Exploration der eingelesenen Fragen</h2>
+      <div id="L1">
+        <h4>Keys auf  Level 1 des aus YAML erzeugten JSON-Objekts</h4>
+      </div>
+      <div id="L2">
+        <h4>Values des jeweils <span id="qnumber">n</span>. JSON-Objekts auf Level 2</h4>
+        <p>Code: <code>yaml[section][<span class="qindex">n</span>][0] yaml[section][<span class="qindex">n</span>][1] yaml[section][<span class="qindex">n</span>][3].length</code></p>
+        <p>&nbsp;</p>
+      </div>
+      <div id="L3">
+        <h4>Fragen im Abschnitt <span id="abschnitt">X</span></h4>
+      </div>
+      <div id="L4">
+        <h4>Beispiel für eine <code>form</code> mit darin generierten <code>fieldset</code>-Tags</h4>
+        <p>Die Positionierung auf der Seite wird durch das CSS File <code>website-check-up-ultralight-simple-form.css</code> gesteuert und sollte so, wie sie ist, hingenommen werden.</p>
+        <p>Die Antworten werden in der vorliegende Version noch statisch, d.h. nicht aus den YAML/JSON-Daten generiert.</p>
+        <p>In <a href="test.html">test.html</a> wurde inzwischen die Zuordnung von Fragen und Antworten umgesetzt.</p>
+        <p>Eine voll ausgearbeitete Form-Generierung - allerdings nach einer anderen als der hier angewandthen Methodik - bietet <a href="website-check-up-ultralight-gpt-2.1.html">website-check-up-ultralight-gpt-2.1.html</a>.</p>
+        <p><strong>To Do</strong>: Zusammenführen der verschiedenen Ansätze; Error Handling</p>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+    <div id="result">
+    </div>
+  </main>
+<script src="js/yaml-test-reader.1.2.js"></script>

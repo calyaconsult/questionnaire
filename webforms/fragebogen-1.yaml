@@ -1,460 +1,300 @@
 ---
-BASIC:
-- - B1
+Questions:
+  BASIC:
   - Benutzt Ihre Website das https-Protokoll
-  -
-  - - Ja
-    - Nein, nur http
-    - Beides, http und https
-    - Ich weiss es nicht
-- - B2
   - Meldet der Browser beim Aufruf Ihrer Domain ein fehlerhaftes oder abgelaufenes
     SSL-Zertifikat
-  -
-  - - Nein, es gibt keine solche Meldung
-    - Ja, es gibt eine solche Meldung
-    - Ich weiss nicht, was das ist
-- - B3
-  - Gibt es auf Ihrer Website Seiten, die beim Aufruf eine Fehlermelung des Typs '500 - Server' Error auslösen
-  -
-  - - Ja, es gibt Seiten mit solch einer Fehlermeldung
-    - Nein, alle Seiten funktionieren
-- - B4
+  - Gibt es auf Ihrer Website Seiten, die beim Aufruf eine Fehlermelung des Typs '500
+    - Server' Error auslösen
   - Gibt es Seiten, die die Fehlermeldung '404 - nicht gefunden' auslösen
-  -
-  - - Nein, alle können aufgerufen werden
-    - Ja, einige werden nicht gefunden
-- - B5
   - Ist das HTML aller Ihrer Seiten validiert
-  -
-  - - Ja, alles in Ordnung
-    - Ja, aber bei einigen gibt es Fehler
-    - Nein, ich habe das noch nie kontrolliert
-- - B6
   - Haben Sie bei allen Ihren Seiten den Seitentitel kontrolliert
-  -
-  - - Ja, und jede Seite hat einen passenden, unverwechselbaren Titel
-    - Ja, aber einige Seiten haben identische Titel oder es fehlen Titel
-    - Nein, ich habe das noch nie kontrolliert
-CONT:
-- - C7
+  CONT:
   - Ist der Inhalt der Website aktuell und relevant
-  -
-  - - Ja
-    - Mehrheitlich schon
-    - Nur ein paar wenige Seiten sind aktuell
-    - Es gibt Seiten, die eigentlich nicht passen
-    - Ich habe das noch nie überprüft
-- - C8
   - Ist der Inhalt der Website auf der gesamten Website konsistent
-  -
-  - - Ja
-    - Mehrheitlich schon
-    - Es gibt einige Widersprüche
-    - Ich habe das noch nie überprüft
-- - C9
   - Wurde beim Erstellen der Inhalte auf die Anforderungen von Suchmaschinen geachtet
-  -
-  - - Ja
-    - Mehrheitlich schon
-    - Nur in einzelnen Fällen
-    - Nein
-    - Ich habe das noch nie überprüft
-- - C10
   - Wurde beim Erstellen der Inhalte an die Bedürfnisse von Menschen mit Behinderung
     gedacht?
-  -
-  - - Ja
-    - Mehrheitlich schon
-    - Es gibt einige Seiten, die nicht für alle geeignet sind
-    - Mir ist diese Problematik fremd
-- - C11
   - Sind alle Texte für die Benutzer leicht verständlich
-  -
-  - - Ja
-    - Die meisten
-    - Nur einige
-    - Ich habe das noch nie überprüft
-- - C12
   - 'Gibt es Probleme mit Inhalten '
-  -
-  - - Nein
-    - Ja (siehe nächste Fragen)
-- - C13
   - Ist der Inhalt der Website für verschiedene Betriebssysteme optimiert
-  - Betriebssysteme
-  -
-- - C14
   - Ist der Inhalt der Website für verschiedene Bildschirmauflösungen optimiert
-  - Bildschirmauflösungen
-  -
-- - C15
   - Ist der Inhalt der Website für verschiedene Bildschirmgrössen optimiert
-  - Bildschirmgrössen
-  -
-- - C16
   - Ist der Inhalt der Website für verschiedene Browser optimiert
-  - Browser
-  -
-- - C17
   - Ist der Inhalt der Website für verschiedene Geräte optimiert
-  - Geräte
-  -
-- - C18
   - Ist der Inhalt der Website für verschiedene Sprachen optimiert
-  - Sprachen
-  -
-- - C19
   - Ist der Inhalt der Website für verschiedene Zeitzonen optimiert
-  - Zeitzonen
-  -
-SEO:
-- - S20
+  SEO:
   - Wird die Website in Suchmaschinen gefunden
-  -
-  - - Ja
-    - Nein, möglicherweise nicht
-    - Ich weiss nicht, wie man das herausfinden kann
-- - S21
   - Ist Ihre Website im Google-Index
-  -
-  - - Ja
-    - Nein, möglicherweise nicht
-    - Ich weiss nicht, wie man das herausfinden kann
-- - S22
   - Auf welchem Platz der Suchergebnisse erscheint Ihre wichtigste Seite, wenn man
     nach einem für Sie wichtigen Begriff sucht
-  -
-  - - Platz 1-3
-    - Platz 4-10
-    - Platz 11-20
-    - Platz 11-20
-    - Platz 21-100
-    - nicht unter den ersten 100 Plätzen
-- - S23
   - Wann wurde zum letzen Mal eine Ihrer Seiten aktualisiert
-  -
-  - - innerhalb der letzten 7 Tage
-    - vor 8 bis 31 Tagen
-    - vor 32 bis 90 Tagen
-    - vor 91 bis 180 Tagen
-    - vor 181 bis 365 Tagen
-    - vor länger als einem Jahr
-- - S24
   - Wurden beim Design Ihrer Website mobile Geräte (Smartphone, Tablet) berücksichtigt
-  -
-  - - Ja
-    - Mehrheitlich schon
-    - Es gibt einige Seiten, die nicht für alle geeignet sind
-    - Mir ist diese Problematik fremd
-- - S25
   - Gibt es auf Ihrer Website eine robots.txt-Datei und eine Sitemap
-  -
-  - - Ja, beides
-    - Nein, nur die robots.txt-Datei
-    - Nein, nur die Sitemap
-    - Nein, keine von beiden
-    - Ich weiss nicht, was das ist
-- - S26
   - Gibt es irgendwo auf Ihrer Website tote Links oder Weiterleitungen ins Leere
-  -
-  - - Nein
-    - Ja, vereinzelt
-    - Ich weiss nicht, wie man das herausfinden kann
-- - S27
   - Haben Sie schon einmal die Ladezeit Ihrer Homepage gemessen
-  -
-  - - Ja, und die Ladezeit war kurz
-    - Ja, und die Ladezeit war eher lang
-    - Nein
-    - Ich weiss nicht, wie man das macht
-- - S28
   - Gibt es Designelemente, die nicht für SEO optimiert sind
-  -
-  - - Ja
-    - Die meisten
-    - Nur einige
-    - Ich habe das noch nie überprüft
-- - S29
   - Haben Sie bei allen Ihren Seiten die Beschreibung (META description) kontrolliert
-  -
-  - - Ja, und jede Seite hat eine aussagekräftige, auf sie zutreffende Beschreibung
-    - Ja, aber einige Seiten haben identische oder fehlende Beschreibungen
-    - Nein, ich habe das noch nie kontrolliert
-- - S30
-  - Haben Sie bei allen Ihren Seiten die übrigen Metadaten (lang, encoding, viewport ...) kontrolliert
-  -
-  - - Ja, alles in Ordnung
-    - Ja, aber bei einigen gibt es Fragen oder Probleme
-    - Nein, ich habe das noch nie kontrolliert
-- - S31
+  - Haben Sie bei allen Ihren Seiten die übrigen Metadaten (lang, encoding, viewport
+    ...) kontrolliert
   - Gibt es auf Ihrer Website Seiten mit sehr wenig Text
-  -
-  - - Ja, ich lasse gerne Bilder sprechen
-    - Einige, aber das ist die Ausnahme
-    - Nein, alle Seiten enthalten längere Textabschnitte
-- - S32
   - Werden wichtige Teile der auf Ihrer Website angezeigten Inhalte erst nach dem
     Aufbau der Seite per Javascript eingefügt
-  -
-  - - Ja, bis auf ein Skelett sind die Seiten dynamisch
-    - Nein, die Inhalte werden mit dem HTML-Quelltext geladen
-    - Ich weiss nicht, um was es hier geht
-- - S33
   - Gibt es Bereiche auf der Website, die eine hohe Absprungrate oder eine niedrige
     Konversionsrate aufweisen
-  -
-  - - Ja
-    - Die meisten
-    - Nur einige
-    - Ich habe das noch nie überprüft
-- - S34
   - Gibt es Probleme mit der Kompatibilität der Website auf verschiedenen Betriebssystemen
-  - Betriebssysteme
-  -
-- - S35
   - Gibt es Probleme mit der Kompatibilität der Website auf verschiedenen Bildschirmauflösungen
-  - Bildschirmauflösungen
-  -
-- - S36
   - Gibt es Probleme mit der Kompatibilität der Website auf verschiedenen Browsern
-  - Browser
-  -
-- - S37
   - Gibt es Probleme mit der Kompatibilität der Website auf verschiedenen Geräten
-  - Geräte
-  -
-USAB:
-- - U38
+  USAB:
   - Sind das Layout und die Navigation der Website für den Benutzer intuitiv
-  -
-  - - Ja
-    - Die meisten
-    - Nur einige
-    - Ich habe das noch nie überprüft
-- - U39
   - Gibt es Probleme mit der Lesbarkeit des Inhalts der Website
-  -
-  - - Nein
-    - Möglicherweise
-    - Ich habe das noch nie überprüft
-- - U40
   - Gibt es Designelemente, die für Benutzer verwirrend oder schwer zu bedienen sind
-  -
-  - - Ja, die meisten
-    - Nur einige
-    - Nein
-    - Ich habe das noch nie überprüft
-- - U41
   - Gibt es Designelemente, die nicht überall auf der gesamten Website einheitlich
     sind
-  -
-  - - Ja, die meisten
-    - Nur einige
-    - Nein
-    - Ich habe das noch nie überprüft
-- - U42
   - Gibt es Designelemente, die veraltet oder nicht mehr relevant sind
-  -
-  - - Ja, die meisten
-    - Nur einige
-    - Nein
-    - Ich habe das noch nie überprüft
-- - U43
   - Gibt es Designelemente, die nicht für A/B- oder multivariate Tests getestet wurden
-  -
-  - - Ja, die meisten
-    - Nur einige
-    - Nein
-    - Ich habe das noch nie überprüft
-- - U44
   - Gibt es Designelemente, die nicht für Benutzer mit Behinderungen optimiert sind
-  -
-  - - Ja, die meisten
-    - Nur einige
-    - Nein
-    - Ich habe das noch nie überprüft
-- - U45
   - Gibt es Probleme mit der Formatierung oder Darstellung der Inhalte der Website
     auf verschiedenen Geräten oder Browsern
-  -
-  - - Ja, bei den meisten
-    - Nur bei einigen
-    - Nein
-    - Ich habe das noch nie überprüft
-- - U46
   - Gibt es Designelemente, die nicht für verschiedene Betriebssysteme optimiert sind
-  - Betriebssysteme
-  -
-- - U47
   - Gibt es Designelemente, die nicht für verschiedene Bildschirmauflösungen optimiert
     sind
-  - Bildschirmauflösungen
-  -
-- - U48
   - Gibt es Designelemente, die nicht für verschiedene Browser optimiert sind
-  - Browser
-  -
-- - U49
   - Gibt es Designelemente, die nicht für verschiedene Sprachen optimiert sind
-  - Sprachen
-  -
-- - U50
   - Gibt es Designelemente, die nicht richtig für verschiedene Bildschirmgrössen optimiert
     sind
-  - Bildschirmgrössen
-  -
-- - U51
   - Gibt es Designelemente, die nicht richtig für verschiedene Geräte optimiert sind
-  - Geräte
-  -
-TECH:
-- - T52
+  TECH:
   - Gibt es aktuelle oder wiederkehrende technische Probleme, die Nutzer auf der Website
     gemeldet haben
-  -
-  - - Ja, es gibt Seiten mit technischen Problemen
-    - Nein, alle Seiten funktionieren
-- - T53
   - Gibt es Inhalte, die die Ladezeit oder Leistung der Website beeinträchtigen
-  -
-  - - Ja, es gibt solche Inhalte
-    - Nein
-- - T54
   - Gibt es Probleme mit der Leistung der Website an verschiedenen geografischen Standorten
-  - Geografie
-  -
-- - T55
   - Gibt es Probleme mit der Leistung der Website bei geringen Geräteressourcen
-  - Geräteleistung
-  -
-- - T56
   - Gibt es Probleme mit der Leistung der Website bei hohem Traffic oder hoher Last
-  - Serverlast
-  -
-- - T57
   - Gibt es Probleme mit der Leistung der Website bei schlechter Netzwerkkonnektivität
-  - Netzwerklast
-  -
-MGMT:
-- - M58
+  MGMT:
   - Benutzen Sie ein Analytics-Tool
-  -
-  - Standard
-- - M59
   - Benutzen Sie für Ihre Website ein Content-Management-System (CMS)
-  -
-  - Standard
-- - M60
   - Gibt es bestimmte Ziele oder Messgrössen, die die Website derzeit zu erreichen
     versucht
-  -
-  - Standard
-- - M61
   - Gibt es definierte Prozesse für die Pflege und Aktualisierung der Website
-  -
-  - Standard
-- - M62
   - Gibt es eine aktuelle oder geplante Integration mit anderen Systemen oder Plattformen
-  -
-  - Standard
-- - M63
   - Gibt es Pläne für A/B- oder multivariate Tests
-  -
-  - Standard
-- - M64
   - Gibt es Pläne für zukünftige Aktualisierungen oder Umgestaltungen der Website
-  -
-  - Standard
-- - M65
   - Gibt es Probleme mit dem Projektmanagement und der Planung der Website
-  -
-  - Standard
-- - M66
   - Gibt es Probleme mit dem Risikomanagement und der Notfallplanung der Website
-  -
-  - Standard
-- - M67
   - Gibt es Probleme mit dem Testen und der Qualitätssicherung der Website
-  -
-  - Standard
-- - M68
   - Gibt es Probleme mit den Entscheidungsprozessen der Website
-  -
-  - Standard
-- - M69
   - Gibt es Probleme mit der Datenverwaltung und dem Datenschutz auf der Website
-  -
-  - Standard
-- - M70
   - Gibt es Probleme mit der Disaster Recovery- und Business Continuity-Planung der
     Website
-  -
-  - Standard
-- - M71
   - Gibt es Probleme mit der Einhaltung von Vorschriften und gesetzlichen Bestimmungen
     auf der Website
-  -
-  - Standard
-- - M72
   - Gibt es Probleme mit der Integration und Interoperabilität der Website mit anderen
     Systemen oder Plattformen
-  -
-  - Standard
-- - M73
   - Gibt es Probleme mit der Kommunikation und Zusammenarbeit im Zusammenhang mit
     der Website
-  -
-  - Standard
-- - M74
   - Gibt es Probleme mit der Lokalisierung oder Übersetzung des Inhalts der Website
-  -
-  - Standard
-- - M75
   - Gibt es Probleme mit der Nutzerforschung und dem Feedback der Website
-  -
-  - Standard
-- - M76
   - Gibt es Probleme mit der Personalausstattung der Website
-  -
-  - Standard
-- - M77
   - Gibt es Probleme mit der Ressourcenzuweisung und Budgetierung der Website
-  -
-  - Standard
-- - M78
   - Gibt es Probleme mit der Skalierbarkeit und Kapazitätsplanung der Website
-  -
-  - Standard
-- - M79
   - Gibt es Probleme mit der strategischen Planung und der langfristigen Vision der
     Website
-  -
-  - Standard
-- - M80
   - Gibt es Probleme mit der Verwaltung und Organisation der Website
-  -
-  - Standard
-- - M81
   - Messen Sie die Leistung der Website und das Engagement der Nutzer
-  -
-  - Standard
-- - M82
   - Wer kümmert sich um die Aktualisierung Ihrer Homepage oder schaltet neue Inhalte
     auf
-  -
-  - Standard
-- - M83
   - Werden Tools oder Analysen verwendet, um den Website-Traffic und das Nutzerverhalten
     zu verfolgen
-  -
-  - Standard
-- - M84
   - Werden Tools oder Analysen verwendet, um die technische Leistung der Website zu
     verfolgen
-  -
-  - Standard
-- - M85
   - Wird die Leistung der Website und das Engagement der Nutzer verfolgt und analysiert
-  -
+Answers:
+  BASIC:
+  - - Ja: true
+    - Nein, nur http: true
+    - Beides, http und https: true
+    - Ich weiss es nicht: true
+  - - Nein, es gibt keine solche Meldung: true
+    - Ja, es gibt eine solche Meldung: true
+    - Ich weiss nicht, was das ist: true
+  - - Ja, es gibt Seiten mit solch einer Fehlermeldung: true
+    - Nein, alle Seiten funktionieren: true
+  - - Nein, alle können aufgerufen werden: true
+    - Ja, einige werden nicht gefunden: true
+  - - Ja, alles in Ordnung: true
+    - Ja, aber bei einigen gibt es Fehler: true
+    - Nein, ich habe das noch nie kontrolliert: true
+  - - Ja, und jede Seite hat einen passenden, unverwechselbaren Titel: true
+    - Ja, aber einige Seiten haben identische Titel oder es fehlen Titel: true
+    - Nein, ich habe das noch nie kontrolliert: true
+  CONT:
+  - - Ja: true
+    - Mehrheitlich schon: true
+    - Nur ein paar wenige Seiten sind aktuell: true
+    - Es gibt Seiten, die eigentlich nicht passen: true
+    - Ich habe das noch nie überprüft: true
+  - - Ja: true
+    - Mehrheitlich schon: true
+    - Es gibt einige Widersprüche: true
+    - Ich habe das noch nie überprüft: true
+  - - Ja: true
+    - Mehrheitlich schon: true
+    - Nur in einzelnen Fällen: true
+    - Nein: true
+    - Ich habe das noch nie überprüft: true
+  - - Ja: true
+    - Mehrheitlich schon: true
+    - Es gibt einige Seiten, die nicht für alle geeignet sind: true
+    - Mir ist diese Problematik fremd: true
+  - - Ja: true
+    - Die meisten: true
+    - Nur einige: true
+    - Ich habe das noch nie überprüft: true
+  - - Nein: true
+    - Ja (siehe nächste Fragen): true
+  - Standard
+  - Standard
+  - Standard
+  - Standard
+  - Standard
+  - Standard
+  - Standard
+  SEO:
+  - - Ja: true
+    - Nein, möglicherweise nicht: true
+    - Ich weiss nicht, wie man das herausfinden kann: true
+  - - Ja: true
+    - Nein, möglicherweise nicht: true
+    - Ich weiss nicht, wie man das herausfinden kann: true
+  - - Platz 1-3: true
+    - Platz 4-10: true
+    - Platz 11-20: true
+    - Platz 11-20: true
+    - Platz 21-100: true
+    - nicht unter den ersten 100 Plätzen: true
+  - - innerhalb der letzten 7 Tage: true
+    - vor 8 bis 31 Tagen: true
+    - vor 32 bis 90 Tagen: true
+    - vor 91 bis 180 Tagen: true
+    - vor 181 bis 365 Tagen: true
+    - vor länger als einem Jahr: true
+  - - Ja: true
+    - Mehrheitlich schon: true
+    - Es gibt einige Seiten, die nicht für alle geeignet sind: true
+    - Mir ist diese Problematik fremd: true
+  - - Ja, beides: true
+    - Nein, nur die robots.txt-Datei: true
+    - Nein, nur die Sitemap: true
+    - Nein, keine von beiden: true
+    - Ich weiss nicht, was das ist: true
+  - - Nein: true
+    - Ja, vereinzelt: true
+    - Ich weiss nicht, wie man das herausfinden kann: true
+  - - Ja, und die Ladezeit war kurz: true
+    - Ja, und die Ladezeit war eher lang: true
+    - Nein: true
+    - Ich weiss nicht, wie man das macht: true
+  - - Ja: true
+    - Die meisten: true
+    - Nur einige: true
+    - Ich habe das noch nie überprüft: true
+  - - Ja, und jede Seite hat eine aussagekräftige, auf sie zutreffende Beschreibung: true
+    - Ja, aber einige Seiten haben identische oder fehlende Beschreibungen: true
+    - Nein, ich habe das noch nie kontrolliert: true
+  - - Ja, alles in Ordnung: true
+    - Ja, aber bei einigen gibt es Fragen oder Probleme: true
+    - Nein, ich habe das noch nie kontrolliert: true
+  - - Ja, ich lasse gerne Bilder sprechen: true
+    - Einige, aber das ist die Ausnahme: true
+    - Nein, alle Seiten enthalten längere Textabschnitte: true
+  - - Ja, bis auf ein Skelett sind die Seiten dynamisch: true
+    - Nein, die Inhalte werden mit dem HTML-Quelltext geladen: true
+    - Ich weiss nicht, um was es hier geht: true
+  - - Ja: true
+    - Die meisten: true
+    - Nur einige: true
+    - Ich habe das noch nie überprüft: true
+  - Standard
+  - Standard
+  - Standard
+  - Standard
+  USAB:
+  - - Ja: true
+    - Die meisten: true
+    - Nur einige: true
+    - Ich habe das noch nie überprüft: true
+  - - Nein: true
+    - Möglicherweise: true
+    - Ich habe das noch nie überprüft: true
+  - - Ja, die meisten: true
+    - Nur einige: true
+    - Nein: true
+    - Ich habe das noch nie überprüft: true
+  - - Ja, die meisten: true
+    - Nur einige: true
+    - Nein: true
+    - Ich habe das noch nie überprüft: true
+  - - Ja, die meisten: true
+    - Nur einige: true
+    - Nein: true
+    - Ich habe das noch nie überprüft: true
+  - - Ja, die meisten: true
+    - Nur einige: true
+    - Nein: true
+    - Ich habe das noch nie überprüft: true
+  - - Ja, die meisten: true
+    - Nur einige: true
+    - Nein: true
+    - Ich habe das noch nie überprüft: true
+  - - Ja, bei den meisten: true
+    - Nur bei einigen: true
+    - Nein: true
+    - Ich habe das noch nie überprüft: true
+  - Standard
+  - Standard
+  - Standard
+  - Standard
+  - Standard
+  - Standard
+  TECH:
+  - - Ja, es gibt Seiten mit technischen Problemen: true
+    - Nein, alle Seiten funktionieren: true
+  - - Ja, es gibt solche Inhalte: true
+    - Nein: true
+  - Standard
+  - Standard
+  - Standard
+  - Standard
+  MGMT:
+  - Standard
+  - Standard
+  - Standard
+  - Standard
+  - Standard
+  - Standard
+  - Standard
+  - Standard
+  - Standard
+  - Standard
+  - Standard
+  - Standard
+  - Standard
+  - Standard
+  - Standard
+  - Standard
+  - Standard
+  - Standard
+  - Standard
+  - Standard
+  - Standard
+  - Standard
+  - Standard
+  - Standard
+  - Standard
+  - Standard
+  - Standard
   - Standard
